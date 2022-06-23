@@ -46,9 +46,22 @@ ol{
   text-decoration: underline;
 }
 #Explanation{
-  text-align: center;
   margin-right: 50px;
 }
 #bottom{
-  margin-top: 200px;
+  padding-top: 200px;
+}
+a {
+    color: #0000ee;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #121212;
+        color: #bbb;
+    }
+
+    a {
+        color: #3ea6ff;
+    }
 }
