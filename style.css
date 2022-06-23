@@ -51,3 +51,9 @@ ol{
 #bottom{
   padding-top: 200px;
 }
+@media (prefers-color-scheme: dark) {
+  html {
+    background: #121212;
+    color: #bbb;
+  }
+}
