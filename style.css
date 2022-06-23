@@ -1,32 +1,35 @@
 body{
   margin: 0;
+
 }
 a{
   color: black;
-  text-decoration: none;
+  text-decoration:none;
 }
 h1{
   font-size:45px;
   text-align: center;
   border-bottom: 1px solid gray;
   margin: 0;
-  padding: 20px;
+  padding: 50px;
 }
 ol{
   border-right: 1px solid gray;
-  width: 100px;
+  width: 150px;
   margin: 0;
   padding: 20px;
+  font-size: 19px;
 }
 #grid ol{
-  padding-left: 33px;
+  padding-left: 83px;
 }
 #grid{
   display: grid;
-  grid-template-columns: 150px 1fr;
+  grid-template-columns: 300px 1fr;
 }
 #grid #article{
   padding-left: 25px;
+  font-size: 20px;
 }
 @media(max-width:800px) {
   #grid{
@@ -38,4 +41,7 @@ ol{
   h1{
     border-bottom: none;
   }
+}
+#certificate{
+  text-decoration: underline;
 }
