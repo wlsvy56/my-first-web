@@ -3,7 +3,7 @@ body{
 
 }
 a{
-  color: black;
+  color: blue;
   text-decoration:none;
 }
 h1{
@@ -41,9 +41,6 @@ ol{
   h1{
     border-bottom: none;
   }
-}
-#certificate{
-  text-decoration: underline;
 }
 #Explanation{
   margin-right: 50px;
