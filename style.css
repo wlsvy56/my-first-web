@@ -19,6 +19,7 @@ ol{
   margin: 0;
   padding: 20px;
   font-size: 19px;
+  line-height:200%;
 }
 #grid ol{
   padding-left: 83px;
