@@ -1,6 +1,5 @@
 body{
   margin: 0;
-
 }
 a{
   color: blue;
@@ -12,6 +11,7 @@ h1{
   border-bottom: 1px solid gray;
   margin: 0;
   padding: 50px;
+  background-image: url('img\\topimg.JPG');
 }
 ol{
   border-right: 1px solid gray;
@@ -47,6 +47,10 @@ ol{
 }
 #bottom{
   padding-top: 200px;
+}
+.download{
+  text-align: center;
+  padding-right: 240px;
 }
 @media (prefers-color-scheme: dark) {
   body {
