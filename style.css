@@ -48,6 +48,13 @@ ol{
 .download{
   text-align: center;
   padding-right: 240px;
+  margin-bottom: 50px;
+}
+.download input{
+  font-size: 25px;
+}
+#space{
+  margin-left: 200px;
 }
 @media (prefers-color-scheme: dark) {
   body {
