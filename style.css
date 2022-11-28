@@ -24,6 +24,11 @@ ol{
 #grid ol{
   padding-left: 83px;
 }
+#grid input{
+  margin-left: 17px;
+  height: 44px;
+  width: 44px;
+}
 #grid{
   display: grid;
   grid-template-columns: 300px 1fr;
@@ -32,17 +37,7 @@ ol{
   padding-left: 25px;
   font-size: 20px;
 }
-@media(max-width:800px) {
-  #grid{
-    display: block;
-  }
-  ol{
-    border-right: none;
-  }
-  h1{
-    border-bottom: none;
-  }
-}
+
 #bottom{
   padding-top: 200px;
 }
@@ -56,13 +51,4 @@ ol{
 }
 #space{
   margin-left: 200px;
-}
-@media (prefers-color-scheme: dark) {
-  body {
-    background: #121212;
-    color: #bbb;
-  }
-  a {
-    color: #3ea6ff;
-  }
 }
