@@ -27,7 +27,6 @@ ol{
 #grid input{
   margin-left: 17px;
   height: 44px;
-  width: 44px;
 }
 #grid{
   display: grid;
@@ -42,8 +41,6 @@ ol{
   padding-top: 200px;
 }
 .download{
-  text-align: center;
-  padding-right: 240px;
   margin-bottom: 50px;
 }
 .download input{
@@ -51,4 +48,7 @@ ol{
 }
 #space{
   margin-left: 200px;
+}
+#article{
+  text-align: center;
 }
